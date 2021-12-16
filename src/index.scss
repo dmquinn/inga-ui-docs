@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  font-family: "Readex Pro", sans-serif !important;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.781);
+  line-height: 30px;
+  letter-spacing: 1px;
+  scroll-behavior: smooth;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace !important;
+}
+.boxBorder {
+  border: 1px solid rgba(128, 128, 128, 0.596);
+}
+.header {
+  background-color: #4cd4ca;
+  position: fixed;
+}
+.longRow {
+  width: 110%;
+}
+button {
+  outline: none;
+  border: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.sidebar {
+  border-right: 1px solid rgba(0, 0, 0, 0.274);
+  position: fixed;
+}
+
+.border {
+  border-top: 1px solid rgba(128, 128, 128, 0.397);
+}
+
+input {
+  padding: 0.7rem;
+  border: none;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  outline: none;
+  width: 200px;
+  height: 20px;
+}
+.formInput {
+}
+.accordion {
+  border: none !important;
+}
