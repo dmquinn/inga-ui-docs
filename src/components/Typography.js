@@ -12,7 +12,7 @@ const Typography = () => {
   return (
     <div className="mt-3" id="layout">
       <h1 className="border p-3 rounded">Typography</h1>
-      <Accordion>
+      <Accordion allowZeroExpanded>
         <AccordionItem>
           <AccordionItemHeading>
             <AccordionItemButton>Fonts</AccordionItemButton>
@@ -24,7 +24,7 @@ const Typography = () => {
               below:
             </p>
             <h3 className="p-1 mt-1 mb-1 textNormal boxBorder rounded">
-              The Quick Brown Fox Jumped Over The Lazy Dog
+              The Quick Brown Fox Jumps Over The Lazy Dog
             </h3>
             <p className="">
               If desired, users can also choose to use Raleway as a font, by
@@ -32,7 +32,7 @@ const Typography = () => {
               seen below:
             </p>
             <h3 className="rw p-1 mt-1 mb-1 textNormal boxBorder rounded">
-              The Quick Brown Fox Jumped Over The Lazy Dog
+              The Quick Brown Fox Jumps Over The Lazy Dog
             </h3>
           </AccordionItemPanel>
         </AccordionItem>

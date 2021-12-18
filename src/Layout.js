@@ -13,7 +13,7 @@ const Layout = () => {
   return (
     <div className="mt-3" id="layout">
       <h1 className="border p-3 rounded">Layout</h1>
-      <Accordion>
+      <Accordion allowZeroExpanded>
         <AccordionItem>
           <AccordionItemHeading>
             <AccordionItemButton>Container </AccordionItemButton>

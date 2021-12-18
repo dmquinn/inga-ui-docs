@@ -1,4 +1,5 @@
 import React from "react";
+import Colors from "./components/Colors";
 import Typography from "./components/Typography";
 import Layout from "./Layout";
 
@@ -45,6 +46,7 @@ const Main = () => {
       </div>
       <Layout />
       <Typography />
+      <Colors />
     </div>
   );
 };
